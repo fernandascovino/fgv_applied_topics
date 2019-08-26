@@ -1,5 +1,8 @@
 # Data files ignore rules are on data/.gitignore
 
+# Venv
+/fgv_applied_topics/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

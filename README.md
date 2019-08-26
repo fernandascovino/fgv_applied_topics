@@ -1,11 +1,17 @@
-## Project Title
+## Topics on Applied Maths
 
-One Paragraph of project description goes here.
+Content developed in the course Topics on Applied Maths, from [FGV EMAp](https://emap.fgv.br/disciplina/graduacao/).
+
+The core subjects of the course are:
+
+- Optimal Control - Prof. Maria Soledad
+- Fuzzy Logic - Prof. Eduardo Massad
+- [Complex Networks](http://networksciencebook.com) - Prof. Moacyr Silva
 
 ### Project Organization
 
     ├── LICENSE
-    ├── README.md                  <- The top-level README for developers using this project (also know as this file!)
+    ├── README.md                  <- The top-level README for developers using this project (this file!)
     ├── data
     │   ├── output                 <- Output processed data
     │   ├── treated                <- The cleaned and treated data for analysis
@@ -25,14 +31,6 @@ You need to have the packages on `requirements.txt` installed. To do that, open 
 ```
 pip3 install -U -r requirements.txt
 ```
-
-#### Changing author
-
-You need change to your name on the files: [LICENSE.md](LICENSE.md), here (below) and optionally put on your code files :)
-
-### Authors
-
-* **You** - *Code maker* - [@you](https://github.com/@you)
 
 ### License
 
