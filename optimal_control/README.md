@@ -1,7 +1,7 @@
-## Optimal Control with Biology and Epidemiology Applications
+# Optimal Control with Biology and Epidemiology Applications
+---
 
-
-### Class contents
+## Class contents
 
 |  Date |               Topic                |    Note    |
 | ----- |:----------------------------------|:----------|
