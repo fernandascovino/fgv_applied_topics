@@ -52,6 +52,39 @@ Connected components appears once we have enough links so that exists subgraphs 
 Given a network with average degree $\langle k_{N} \rangle$, we can think that a node have on average $\langle k \rangle$ nodes at distance one ($d=1$), $\langle k \rangle^2$ nodes at distance one ($d=2$), and so on.
 $$ d_{max} = \frac{log(N)}{log \langle k_{N} \rangle}$$
 
+### Finite scale-free networks
+(i. e. *Law power networks*)
+
+#### Power law distribution
+- It's possible to find extreme values more often: we have a "heavy" tail. We have:
+
+$$ p_k ∼ k^{−γ} $$
+
+Where $γ$ is the degree exponent. We can separate the equation with $p_{in}$ and $p_{out}$ distributions also, each one with its on $γ$.
+$$ p(k) = C e^{−λk} $$
+
+#### Hubs
+
+- What is the maximum degree we should observate in such networks?
+
+In general: "ther larger a network, the larger is the degree of aits biggest hub".
+
+$$k_{max} = k_{min} N^{\frac{1}{γ−1}}$$
+
+
+#### Scale-free property
+
+- Why "scale-free"? As the network growns, it's patterns remains the same: the caracteristcs of the network are scale-free.
+
+#### Ultra-small property
+- Comparing to random networks, which have a "tree-like" topology i.e. nodes degrees are almost the same, 
+
+- When we have $γ$ = 2, it means in general that all nodes will be connect with one hub, therefore the distance between them has no relation to the size of the network.
+
+$$k_{max} \approx N$$
+
+- When we have $2 < γ < 3$, "the average distance increases as $ln(ln(N))$, a significantly slower growth than the $ln(N)$ derived for random networks. We call networks in this regime ultra-small, as the hubs radically reduce the path length." This is the ultra-small network.
+
 #### Notes reference:
 
 (1) ["Network Science by Albert-László Barabási*](http://networksciencebook.com/)
