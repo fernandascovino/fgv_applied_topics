@@ -87,4 +87,4 @@ $$k_{max} \approx N$$
 
 #### Notes reference:
 
-(1) ["Network Science by Albert-László Barabási*](http://networksciencebook.com/)
+(1) [Network Science by Albert-László Barabási](http://networksciencebook.com/)
