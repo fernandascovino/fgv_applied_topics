@@ -1,5 +1,6 @@
 # Data files ignore rules are on data/.gitignore
 */notes/
+docs/
 
 # Venv
 /fgv_applied_topics/
